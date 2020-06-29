@@ -4,95 +4,218 @@
 <head>
   <meta charset="utf-8">
   <title>Cello Web-Development | Empowering Businesses Trough Web Development</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
+
   <header>
-    <a href="index.html" class="header-brand">Cello WebDev</a>
-    <nav>
-      <ul>
-        <li><a href="portfolio.html">Portfolio</a></li>
-        <li><a href="about.html">About me</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-      <a href="cases.html" class="header-cases">Cases</a>
-    </nav>
-  </header>
-  <main>
-    <section class="index-banner">
-      <div class="vertical-center">
-        <h1>I AM A WEB<br>DEVELOPER</h1>
-        <h2>With speciality in front-end development.</h2>
-      </div>
-    </section>
-    <div class="wrapper">
-      <section class="index-links">
-        <a href="cases.html">
-          <div class="index-boxlink-square">
-            <h3>Cases</h3>
-          </div>
-        </a>
-        <a href="#">
-          <div class="index-boxlink-rectangle">
-            <h3>Portfolio</h3>
-          </div>
-        </a>
-        <a href="#">
-          <div class="index-boxlink-square">
-            <h3>CelloWebDev</h3>
-          </div>
-        </a>
-        <a href="#">
-          <div class="index-boxlink-rectangle">
-            <h3>YouTube Channel</h3>
-          </div>
-        </a>
-        <a href="#">
-          <div class="index-boxlink-square">
-            <h3>About</h3>
-          </div>
-        </a>
-        <a href="#">
-          <div class="index-boxlink-square">
-            <h3>Contact</h3>
-          </div>
-        </a>
-      </section>
+    <div class="menu-toggler">
+      <div class="bar half start"></div>
+      <div class="bar"></div>
+      <div class="bar half end"></div>
     </div>
-  </main>
-  <div class="wrapper">
-    <footer>
-      <ul class="footer-links-main">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Cases</a></li>
-        <li><a href="#">Portfolio</a></li>
-        <li><a href="#">About me</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-      <ul class="footer-links-cases">
+    <nav class="top-nav">
+      <ul class="nav-list">
         <li>
-          <p>Latest cases</p>
+          <a href="index.html" class="nav-link">Home</a>
         </li>
-        <li><a href="#">CASE 1</a></li>
-        <li><a href="#">CASE 2</a></li>
-        <li><a href="#">CASE 3</a></li>
-        <li><a href="#">CASE 4</a></li>
+        <li>
+          <a href="#about" class="nav-link">About</a>
+        </li>
+        <li>
+          <a href="#portfolio" class="nav-link">Portfolio</a>
+        </li>
+        <li>
+          <a href="#experience" class="nav-link">Experience</a>
+        </li>
+        <li>
+          <a href="#contact" class="nav-link">Contact</a>
+        </li>
       </ul>
-      <div class="footer-sm">
-        <a href="#">
-          <img src="img/icons/youtube.png" alt="youtube icon">
-        </a>
-        <a href="#">
-          <img src="img/icons/instagram.png" alt="youtube icon">
-        </a>
-        <a href="#">
-          <img src="img/icons/facebook.png" alt="youtube icon">
-        </a>
+    </nav>
+    <div class="landing-text">
+      <h1>Angelo Cello</h1>
+      <h6>Front End | Web Developer</h6>
+    </div>
+  </header>
+
+  <section class="video" id="video">
+    <div class="container">
+      <div class="CSQS-video">
+        <iframe src="https://www.youtube.com/embed/6GHGdQX2CIM" frameborder="0" allowfullscreen></iframe>
       </div>
-    </footer>
-  </div>
+   </div> 
+  </section>
+
+  <section class="about">
+    <div class="container">
+      <div class="profile-img" data-aos="fade-right" data-aos-delay="300">
+        <img src="img/me.jpg" alt="Image of Angelo Cello">
+      </div>
+      <div class="about-details" data-aos="fade-left" data-aos-delay="600">
+        <div class="about-heading" id="about">
+          <h1>About</h1>
+        </div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur venenatis sapien malesuada dignissim
+          tincidunt. Aenean efficitur in nulla quis sodales. Aenean a massa ut purus luctus accumsan sed at urna.
+          Fusce interdum sapien sed consectetur blandit. Cras porttitor dolor vulputate purus tincidunt auctor.
+          Maecenas nec magna mollis, laoreet erat ut, ullamcorper felis. Sed porta iaculis egestas. Sed pulvinar
+          lectus dui, eu scelerisque nibh mollis et. Praesent hendrerit neque in enim viverra malesuada.</p>
+        <div class="social-media">
+          <ul class="nav-list">
+            <li>
+              <a href="#" class="icon facebook">
+              </a>
+            </li>
+            <li>
+              <a href="#" class="icon instagram">
+              </a>
+            </li>
+            <li>
+              <a href="#" class="icon youtube">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="services" id="services">
+    <div class="container">
+      <div class="section-heading">
+        <h1>Services</h1>
+        <h6>What I can do for you</h6>
+      </div>
+      <div class="my-skills">
+        <div class="skill" data-aos="fade-in" data-aos-delay="300">
+          <div class="icon-container">
+            <i class="fas fa-layer-group"></i>
+          </div>
+          <h1>Web Design</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="skill" data-aos="fade-in" data-aos-delay="600">
+          <div class="icon-container">
+            <i class="fas fa-code"></i>
+          </div>
+          <h1>Web Development</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="skill" data-aos="fade-right" data-aos-delay="900">
+          <div class="icon-container">
+            <i class="fas fa-chart-pie"></i>
+          </div>
+          <h1>SEO Strategy</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="portfolio" id="portfolio">
+    <div class="container">
+      <div class="section-heading">
+        <h1>Portfolio</h1>
+        <h6>View some of my recent work</h6>
+      </div>
+      <div class="portfolio-item">
+        <div class="portfolio-img has-margin-right" data-aos="fade-right" data-aos-delay="300">
+          <img src="img/space-x-internship.jpg" alt="">
+        </div>
+        <div class="portfolio-description" data-aos="fade-left" data-aos-delay="600">
+          <h1>Space X Internship Program</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur venenatis sapien malesuada dignissim</p>
+          <a href="#" class="cta">View Details</a>
+        </div>
+      </div>
+      <div class="portfolio-item">
+        <div class="portfolio-description has-margin-right" data-aos="fade-right" data-aos-delay="900">
+          <h1>Community Science Museum</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur venenatis sapien malesuada dignissim</p>
+          <a href="#" class="cta">View Details</a>
+        </div>
+        <div class="portfolio-img" data-aos="fade-left" data-aos-delay="1200">
+          <img src="img/Community-science-museum.jpg" alt="">
+        </div>
+      </div>
+      <div class="portfolio-item">
+        <div class="portfolio-img has-margin-right" data-aos="fade-right" data-aos-delay="1500">
+          <img src="img/recycle-website.jpg" alt="">
+        </div>
+        <div class="portfolio-description" data-aos="fade-left" data-aos-delay="1800">
+          <h1>City Cycle</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur venenatis sapien malesuada dignissim</p>
+          <a href="#" class="cta">View Details</a>
+        </div>
+      </div>
+  </section>
+
+  <section class="experience" id="experience">
+    <div class="container">
+      <div class="section-heading">
+        <h1>Experience</h1>
+        <h6>Past and current jobs</h6>
+      </div>
+      <div class="timeline" data-aos="fade-down" data-aos-delay="300">
+        <ul>
+          <li class="date" data-date="2019 - Present">
+            <h1>Noroff School Of Technology and Digital Media</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur venenatis sapien malesuada dignissim</p>
+          </li>
+          <li class="date" data-date="2019 - Present">
+            <h1>Future</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur venenatis sapien malesuada dignissim</p>
+          </li>
+          <li class="date" data-date="2019 - Present">
+            <h1>Future</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur venenatis sapien malesuada dignissim</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="section-heading">
+        <h1>Contact</h1>
+        <h6>Let's work together</h6>
+      </div>
+      <form action="" data-aos="fade-up" data-aos-delay="300">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name..." required>
+        <label for="Email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email..." required>
+        <label for="Email">Services:</label>
+        <select name="service" id="services">
+          <option value="">Web Design</option>
+          <option value="">Web Development</option>
+          <option value="">Web Design/Development</option>
+        </select>
+        <label for="subjet">Subject:</label>
+        <textarea name="subject" id="subject" cols="10" rows="10"></textarea>
+        <input type="submit" value="Submit">
+
+      </form>
+    </div>
+  </section>
+  <footer class="copyright">
+    <div class="up" id="up">
+      <i class="fas fa-chevron-up"></i>
+    </div>
+    <p>&copy; 2020 Angelo Cello</p>
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script src="main.js"></script>
 </body>
 
 </html>
